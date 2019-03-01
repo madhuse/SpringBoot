@@ -60,7 +60,7 @@ public class UserController {
 	@RequestMapping("getdata")
 	public String getData(){
 		System.out.println("hello");
-		System.out.println("hello1");
+		System.out.println("hello12");
 		return "hello";
 		
 	}
