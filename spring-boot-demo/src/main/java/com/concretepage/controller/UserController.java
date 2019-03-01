@@ -55,4 +55,9 @@ public class UserController {
 		list.add("Director");
 		return list;
 	}
+	
+	
+	@RequestMapping("getdata")
+	public String getData(){
+		System.out.println("hello");
 } 
